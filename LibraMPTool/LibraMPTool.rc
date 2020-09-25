@@ -1,0 +1,432 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "LANGUAGE 4, 1\r\n"
+    "#pragma code_page(950)\r\n"
+    "#include ""res\\LibraMPTool.rc2""  // 非 Microsoft Visual C++ 編輯過的資源\r\n"
+    "#include ""l.CHT\\afxres.rc""      // 標準元件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Icon_EpoStar.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "關於 LibraMPTool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "LibraMPTool, 1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "確定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_LIBRAMPTOOL_DIALOG DIALOGEX 0, 0, 547, 321
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LibraMPTool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "START",IDOK,9,22,26,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "EXIT",IDCANCEL,9,9,26,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BUTTON_RESCAN,61,13,27,27,BS_BITMAP
+    CONTROL         "",IDC_CHECK_DISK_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,61,8,20
+    CONTROL         "",IDC_CHECK_DISK_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,91,8,20
+    CONTROL         "",IDC_CHECK_DISK_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,121,8,20
+    CONTROL         "",IDC_CHECK_DISK_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,151,8,20
+    CONTROL         "",IDC_CHECK_DISK_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,181,8,20
+    CONTROL         "",IDC_CHECK_DISK_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,211,8,20
+    CONTROL         "",IDC_CHECK_DISK_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,241,8,20
+    CONTROL         "",IDC_CHECK_DISK_8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,271,8,20
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_1,9,53,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_2,9,83,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_3,9,113,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_4,9,143,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_5,9,173,138,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_6,9,203,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_7,9,233,137,8,SS_NOTIFY
+    LTEXT           "NVMe(X): XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_8,9,263,137,8,SS_NOTIFY
+    CONTROL         "",IDC_STATIC_DISK_1,"Static",SS_BITMAP | SS_NOTIFY,19,61,20,20
+    CONTROL         "",IDC_STATIC_DISK_2,"Static",SS_BITMAP | SS_NOTIFY,19,91,20,20
+    CONTROL         "",IDC_STATIC_DISK_3,"Static",SS_BITMAP | SS_NOTIFY,19,121,20,20
+    CONTROL         "",IDC_STATIC_DISK_4,"Static",SS_BITMAP | SS_NOTIFY,19,151,20,20
+    CONTROL         "",IDC_STATIC_DISK_5,"Static",SS_BITMAP | SS_NOTIFY,19,181,20,20
+    CONTROL         "",IDC_STATIC_DISK_6,"Static",SS_BITMAP | SS_NOTIFY,19,211,20,20
+    CONTROL         "",IDC_STATIC_DISK_7,"Static",SS_BITMAP | SS_NOTIFY,19,241,20,20
+    CONTROL         "",IDC_STATIC_DISK_8,"Static",SS_BITMAP | SS_NOTIFY,19,271,20,20
+    CONTROL         "",IDC_TAB_CONTENT,"SysTabControl32",0x0,150,37,390,276
+    GROUPBOX        "",IDC_STATIC,7,3,143,310
+    RTEXT           "Config List:",IDC_STATIC,368,9,35,8
+    COMBOBOX        IDC_COMBO_CONFIG_LIST,405,7,135,126,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_1,105,65,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_2,105,95,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_3,105,125,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_4,105,155,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_5,105,185,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_6,105,215,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_7,105,245,26,12
+    CTEXT           "XXX",IDC_STATIC_FW_MODE_PORT_8,105,275,26,12
+    CTEXT           "",IDC_STATIC_TEST_RESULT,9,299,138,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "CREATE",IDC_BUTTON_CREATE,490,20,50,14
+    CONTROL         "RDT",IDC_CHECK_RDT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,328,8,29,10
+END
+
+IDD_DIALOG_PORT_SETTING DIALOGEX 0, 0, 198, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "USB Port setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,141,121,50,14
+    PUSHBUTTON      "EXIT",IDCANCEL,7,121,50,14,NOT WS_VISIBLE
+    RTEXT           "Port 1:",IDC_STATIC,7,8,23,8
+    RTEXT           "Port 2:",IDC_STATIC,7,22,23,8
+    RTEXT           "Port 3:",IDC_STATIC,7,36,23,8
+    RTEXT           "Port 4:",IDC_STATIC,7,50,23,8
+    RTEXT           "Port 5:",IDC_STATIC,7,64,23,8
+    RTEXT           "Port 6:",IDC_STATIC,7,78,23,8
+    RTEXT           "Port 7:",IDC_STATIC,7,92,23,8
+    RTEXT           "Port 8:",IDC_STATIC,7,106,23,8
+    EDITTEXT        IDC_EDIT_SN_PORT_0,31,7,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_1,31,21,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_2,31,35,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_3,31,49,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_4,31,63,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_5,31,77,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_6,31,91,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_PORT_7,31,105,160,12,ES_UPPERCASE | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_MP_INFO DIALOGEX 0, 0, 447, 281
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "START",IDOK,0,266,50,14
+    PUSHBUTTON      "EXIT",IDCANCEL,397,266,50,14,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Port 1 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_1,11,15,115,8,SS_NOTIFY
+    LTEXT           "Port 2 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_2,11,47,115,8,SS_NOTIFY
+    LTEXT           "Port 3 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_3,11,79,115,8,SS_NOTIFY
+    LTEXT           "Port 4 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_4,11,111,115,8,SS_NOTIFY
+    LTEXT           "Port 5 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_5,11,144,115,8,SS_NOTIFY
+    LTEXT           "Port 6 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_6,11,176,115,8,SS_NOTIFY
+    LTEXT           "Port 7 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_7,11,208,115,8,SS_NOTIFY
+    LTEXT           "Port 8 - XXXXXXXXXXXXXXXXXXXX",IDC_STATIC_SN_PORT_8,11,240,115,8,SS_NOTIFY
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_1,1,15,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_2,1,47,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_3,1,79,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_4,1,111,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_5,1,144,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_6,1,176,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_7,1,208,9,8
+    RTEXT           "(X)",IDC_STATIC_PHYSICAL_ADDRESS_PORT_8,1,240,9,8
+    CONTROL         "",IDC_PROGRESS_PORT_1,"msctls_progress32",0x0,130,9,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_2,"msctls_progress32",0x0,130,42,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_3,"msctls_progress32",0x0,130,74,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_4,"msctls_progress32",0x0,130,106,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_5,"msctls_progress32",0x0,130,139,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_6,"msctls_progress32",0x0,130,171,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_7,"msctls_progress32",0x0,130,203,60,18
+    CONTROL         "",IDC_PROGRESS_PORT_8,"msctls_progress32",0x0,130,236,60,18
+    GROUPBOX        "",IDC_STATIC,0,0,447,32
+    GROUPBOX        "",IDC_STATIC,0,33,447,32
+    GROUPBOX        "",IDC_STATIC,0,65,447,32
+    GROUPBOX        "",IDC_STATIC,0,97,447,32
+    GROUPBOX        "",IDC_STATIC,0,130,447,32
+    GROUPBOX        "",IDC_STATIC,0,162,447,32
+    GROUPBOX        "",IDC_STATIC,0,194,447,32
+    GROUPBOX        "",IDC_STATIC,0,227,447,32
+    GROUPBOX        "",IDC_STATIC,192,2,250,28
+    GROUPBOX        "",IDC_STATIC,192,35,250,28
+    GROUPBOX        "",IDC_STATIC,192,67,250,28
+    GROUPBOX        "",IDC_STATIC,192,99,250,28
+    GROUPBOX        "",IDC_STATIC,192,131,250,28
+    GROUPBOX        "",IDC_STATIC,192,163,250,28
+    GROUPBOX        "",IDC_STATIC,192,195,250,28
+    GROUPBOX        "",IDC_STATIC,192,229,250,28
+    CTEXT           "",IDC_STATIC_TIMER_PORT_1,193,15,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_2,193,47,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_3,193,79,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_4,193,111,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_5,193,144,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_6,193,176,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_7,193,208,29,8
+    CTEXT           "",IDC_STATIC_TIMER_PORT_8,193,240,29,8
+    LTEXT           "",IDC_STATIC_INFO_PORT_1,223,7,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_2,223,40,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_3,223,72,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_4,223,104,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_5,223,136,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_6,223,168,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_7,223,200,217,21
+    LTEXT           "",IDC_STATIC_INFO_PORT_8,223,234,217,21
+END
+
+IDD_DIALOG_PARAMETER DIALOGEX 0, 0, 447, 280
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Edit",IDOK_EDIT,397,16,50,14
+    PUSHBUTTON      "Save",IDCANCEL_SAVE,397,32,50,14
+    PUSHBUTTON      "Save As",IDC_BUTTON_SAVE_AS,397,0,50,14
+    RTEXT           "Bigin SN:",IDC_STATIC,239,7,29,8
+    RTEXT           "End SN:",IDC_STATIC,243,21,26,8
+    RTEXT           "SN Mask:",IDC_STATIC,239,35,30,8
+    EDITTEXT        IDC_EDIT_BEGIN_SN,271,5,116,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_END_SN,271,19,116,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SN_MASK,271,33,116,12,ES_AUTOHSCROLL
+    RTEXT           "VID:",IDC_STATIC,254,140,15,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_NVME_VID,272,138,40,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "DID:",IDC_STATIC,254,153,16,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_NVME_DID,272,151,40,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "EUI64:",IDC_STATIC,244,255,23,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SYS_EUI64,270,255,116,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "Model Name:",IDC_STATIC,236,175,42,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_NVME_MN,280,173,167,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "FW Version:",IDC_STATIC,238,188,40,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SYS_FW_VERSION,280,186,70,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "Capacity:",IDC_STATIC,238,48,32,8
+    COMBOBOX        IDC_COMBO_NVME_CAPACITY,271,46,58,67,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Cap. Manual:",IDC_STATIC,256,123,44,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_NVME_CAPACITY_MANUAL,301,121,58,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_MP_PARAMETER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,0,230,279
+    EDITTEXT        IDC_EDIT_MP_PARAMETER,407,47,40,12,ES_AUTOHSCROLL | NOT WS_VISIBLE | NOT WS_BORDER
+END
+
+IDD_DIALOG_PASSWORD DIALOGEX 0, 0, 201, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,145,19,41,14
+    PUSHBUTTON      "EXIT",IDCANCEL,7,34,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PASSWORD,21,20,113,12,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CREATE DIALOGEX 0, 0, 316, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,262,32,14
+    PUSHBUTTON      "EXIT",IDCANCEL,270,262,31,14
+    CONTROL         "",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,14,14,288,233
+    EDITTEXT        IDC_EDIT_PARAMETER,194,264,39,12,ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_VISIBLE | NOT WS_BORDER
+    RTEXT           "Config file name:",IDC_STATIC,138,251,55,8
+    EDITTEXT        IDC_EDIT_CONFIG_FILE_NAME,194,249,108,12,ES_AUTOHSCROLL
+    RTEXT           "Config type:",IDC_STATIC,12,265,41,8
+    EDITTEXT        IDC_EDIT_CONFIG_TYPE,53,264,84,12,ES_AUTOHSCROLL
+    RTEXT           "Path:",IDC_STATIC,14,251,18,8
+    EDITTEXT        IDC_EDIT_BIN_PATH,32,249,105,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040403b6"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名稱>"
+            VALUE "FileDescription", "TODO: <檔案說明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LibraMPTool.exe"
+            VALUE "LegalCopyright", "TODO: (c) <公司名稱>.  All rights reserved."
+            VALUE "OriginalFilename", "LibraMPTool.exe"
+            VALUE "ProductName", "TODO: <產品名稱>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x404, 950
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_LIBRAMPTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 540
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+
+    IDD_DIALOG_PORT_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG_MP_INFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 280
+    END
+
+    IDD_DIALOG_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_CREATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_DISK_SCAN    BITMAP                  "res\\Disk_Scan.bmp"
+IDB_BITMAP_DISK_NULL    BITMAP                  "res\\Disk_Null.bmp"
+IDB_BITMAP_DISK_NORMAL  BITMAP                  "res\\Disk.bmp"
+IDB_BITMAP_DISK_INFO    BITMAP                  "res\\Disk_Info.bmp"
+IDB_BITMAP_DISK_RUNNING BITMAP                  "res\\Disk_Running.bmp"
+IDB_BITMAP_DISK_SUCCESS BITMAP                  "res\\Disk_Success.bmp"
+IDB_BITMAP_DISK_FAIL    BITMAP                  "res\\Disk_Fail.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "關於 LibraMPTool(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通訊端安裝失敗。"
+END
+
+#endif    // 中文 (台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE 4, 1
+#pragma code_page(950)
+#include "res\LibraMPTool.rc2"  // 非 Microsoft Visual C++ 編輯過的資源
+#include "l.CHT\afxres.rc"      // 標準元件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibraMPTool", "LibraMPTool\LibraMPTool.vcxproj", "{B91009F9-837C-4A95-AE0E-F67D61647117}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Debug|Win32.Build.0 = Debug|Win32
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Debug|x64.ActiveCfg = Debug|Win32
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Release|Win32.ActiveCfg = Release|Win32
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Release|Win32.Build.0 = Release|Win32
+		{B91009F9-837C-4A95-AE0E-F67D61647117}.Release|x64.ActiveCfg = Release|Win32
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Debug|Win32.Build.0 = Debug|Win32
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Debug|x64.ActiveCfg = Debug|x64
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Debug|x64.Build.0 = Debug|x64
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Release|Win32.ActiveCfg = Release|Win32
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Release|Win32.Build.0 = Release|Win32
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Release|x64.ActiveCfg = Release|x64
+		{BF00CF5C-EA4E-45E3-B35C-864BE325A56F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08E20B6A-6CA8-4002-86C6-7AEF24483509}
+	EndGlobalSection
+EndGlobal
